@@ -1,5 +1,17 @@
 
 public class Square {
 
-	// simple - maintains whether or not a square is alive 
+	private Boolean isAlive; 
+	
+	public Square(Boolean isAlive) {
+		this.setIsAlive(isAlive); 
+	}
+
+	public Boolean getIsAlive() {
+		return isAlive;
+	}
+
+	public void setIsAlive(Boolean isAlive) {
+		this.isAlive = isAlive;
+	}
 }
